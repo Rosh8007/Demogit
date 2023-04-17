@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="aa" value="Roshan"></parameter>
+  <parameter name="bb" value="Aware"></parameter>
+    <parameter name="cc" value="80078192245"></parameter>
+  
+    <parameter name="dd" value="Roshan123@gmail.com"></parameter>
+  
+    <parameter name="ee" value="Pune"></parameter>
+  
+    <parameter name="ff" value="Amravati"></parameter>
+  
+    <parameter name="gg" value="maharatra"></parameter>
+  
+    <parameter name="hh" value="444806"></parameter>
+  
+    <parameter name="ii" value=""></parameter>
+     <parameter name="jj" value="Roshan@123"></parameter>
+      <parameter name="kk" value="800719"></parameter>
+       <parameter name="ll" value="800719"></parameter>
+      
+ <classes>
+ <class name="Heloo.Mercuryregistration"></class>
+ 
+ </classes>
+  
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->
