@@ -54,7 +54,9 @@ public class Mercuryregistration {
 		driver.findElement(By.name("confirmPassword")).sendKeys(L);
 
 		driver.findElement(By.name("submit")).click();
-
+                
+		
+		driver.close();
 		
 
 	}
